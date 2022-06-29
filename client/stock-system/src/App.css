@@ -1,0 +1,71 @@
+/* 
+ul {
+
+    counter-reset: list;
+    border-left: 2px solid lightgrey;
+    margin: 1em;
+    padding: 0;
+    vertical-align: auto;
+    flex-direction: column;
+    
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    vertical-align: auto;
+  }
+  
+  ul li:before {
+    vertical-align: auto;
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.5em 0 -0.65em;
+    border-radius: 50%;  
+    content: counter(list);
+    text-align: center;
+    background: lightgrey;
+    counter-increment: list;
+  } */
+  .formDesign{
+    margin: 10px;
+    padding: 10px;
+    max-width: 65%;
+    max-height: 65%;
+    margin-left: 10%;
+		padding-top: 11px;
+    border: 4px double #1c8484;
+  }
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+  .cardDesign{
+    border: 4px double #1c8484;
+    margin: 10px;
+    padding: 10px;
+    max-width: 65%;
+    margin-left: 10%;
+		padding-top: 11px;
+  }
+  .buttonDesign{
+    text-align: right;
+  }
+  .newDesign1{
+    margin: 10px;
+    padding: 10px;
+    max-width: 65%;
+    max-height: 65%;
+    margin-left: 10%;
+		padding-top: 11px;
+    border: 5px double #080957;
+  }
